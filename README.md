@@ -1,4 +1,5 @@
 # AI Content Generator Pro
+![Screenshot 2025-05-31 101942](https://github.com/user-attachments/assets/20909831-0e7d-4cbf-941d-558ceb2399e5)
 
 Selamat datang di AI Content Generator Pro! Aplikasi web ini dirancang untuk membantu Anda membuat konten artikel berkualitas tinggi dengan bantuan kecerdasan buatan (AI) dari Google Gemini. Dilengkapi dengan antarmuka yang modern dan profesional menggunakan Bootstrap dan editor Summernote, aplikasi ini memudahkan proses pembuatan konten mulai dari ide hingga teks jadi.
 
@@ -100,5 +101,6 @@ AI Content Generator Pro adalah alat berbasis web yang memungkinkan pengguna mem
 10. Klik "Konten Baru" untuk mereset semua input dan hasil.
 
 ## Kontribusi
+![image](https://github.com/user-attachments/assets/5c26980a-1283-4663-89f4-4a0a9580d039)
 
 Jika Anda ingin berkontribusi pada proyek ini, silakan lakukan fork pada repositori, buat branch baru untuk fitur atau perbaikan Anda, dan ajukan Pull Request.
