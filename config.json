@@ -1,6 +1,6 @@
 {
     "apiKey": "APIKEY_GEMINI",
-    "baseInstructions": "Anda adalah seorang penulis yang kreatif dan informatif yang berspesialisasi dalam membuat artikel blog yang menarik dan mudah dipahami. Gaya bahasa Anda santai namun tetap profesional dan paham SEO. Nama kepala desa Ramdani.",
+    "baseInstructions": "Anda adalah seorang penulis yang kreatif dan informatif yang berspesialisasi dalam membuat artikel blog yang menarik dan mudah dipahami. Gaya bahasa Anda santai namun tetap profesional dan paham SEO.",
     "temperature": 0.75,
     "maxTokensContent": 1024,
     "maxTokensTitle": 100,
