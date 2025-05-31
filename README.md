@@ -26,7 +26,6 @@ AI Content Generator Pro adalah alat berbasis web yang memungkinkan pengguna mem
     * Animasi dan transisi halus untuk pengalaman pengguna yang lebih baik.
 * **Responsif**: Tampilan optimal di berbagai ukuran layar (desktop, tablet, mobile).
 * **Pengelolaan Pengaturan via File**: Pengaturan disimpan dalam file `config.json` di sisi server.
-* **(Opsional) Daftar Postingan**: Terdapat halaman `list_posts.html` (jika Anda mengimplementasikan penyimpanan atau integrasi lebih lanjut).
 
 ## Teknologi yang Digunakan
 
@@ -73,7 +72,7 @@ AI Content Generator Pro adalah alat berbasis web yang memungkinkan pengguna mem
 1.  **Persyaratan Server**:
     * Web server yang mendukung PHP (misalnya Apache, Nginx).
     * Ekstensi PHP cURL harus aktif (untuk komunikasi dengan API eksternal).
-2.  **Unggah File**: Unggah semua file proyek (`index.php`, `script.js`, `generate_content.php`, `get_settings.php`, `save_settings.php`, dan file opsional `list_posts.*`) ke direktori yang dapat diakses melalui web di server Anda.
+2.  **Unggah File**: Unggah semua file proyek (`index.php`, `script.js`, `generate_content.php`, `get_settings.php`, `save_settings.php`) ke direktori yang dapat diakses melalui web di server Anda.
 3.  **File Konfigurasi (`config.json`)**:
     * Saat pertama kali `get_settings.php` diakses (misalnya, saat halaman `index.php` dimuat), jika `config.json` belum ada di direktori yang sama, skrip akan mencoba membuatnya dengan nilai default.
     * Pastikan direktori tempat file-file PHP ini berada **dapat ditulis (writable)** oleh pengguna server web agar `config.json` bisa dibuat dan diperbarui. Anda mungkin perlu mengatur izin direktori (misalnya, `755` atau `775`) dan izin file `config.json` (misalnya, `664`) jika ada masalah.
